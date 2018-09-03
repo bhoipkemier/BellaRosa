@@ -1,0 +1,83 @@
+title: Bella Rosa Farms
+name: Gary Hoipkemier
+email: bella.rosa@hoipkemier.com
+description: Your source for locally grown Christmas trees.
+
+baseurl: "/blog"
+url: ""
+
+display_footer: initial  #change this to 'none' if you want to hide the footer copyright text
+
+parallax_image_one: assets/images/forest.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/evergreen.jpg
+
+project_one: "First Project"
+project_one_description: Describe your project!
+project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_icon: location_on
+
+project_two: Second Project
+project_two_description: Describe your project!
+project_two_url: https://github.com/jameshamann/jekyll-material-theme
+project_two_icon: photo_camera
+
+
+project_three: Third Project
+project_three_description: Describe your project!
+project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_icon: hotel
+
+
+project_four: Fourth Project
+project_four_description: Describe your project!
+project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four_icon: restaurant
+
+location_heading: Location
+location_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47052.16703118702!2d-86.21115183468243!3d41.55431972540172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8816ca8cc741dbef%3A0xf2257af2a2ea09fb!2s64454+Miami+Rd%2C+Bremen%2C+IN+46506!5e0!3m2!1sen!2sus!4v1535889328201
+
+about_heading: About
+about_content: There’s no holiday like Christmas, and what better way to celebrate than by cutting your own Christmas tree at the Bella Rosa Christmas Tree Farm. Bring your family and pick out your perfect tree for the holiday celebrations.  You will find White Pines, Fraser Firs, and Blue Spruces available for you.  We will cut, wrap and load your tree. It’s a enjoyable experience you will want to continue year after year. Come to our farm in Bremen, Indiana where we grow the trees and you make the memories.
+
+hours_heading: Hours
+hours_content: Hours of operation coming soon.
+
+pricing_heading: Prices
+pricing_content: <table style="width:600px"><tr><th>Tree</th><th>Cost Per Foot</th></tr><tr><td>Fraser Fir</td><td>$6.00</td></tr><tr><td>White Pine</td><td>$5.00</td></tr><tr><td>Blue Spruce</td><td>$5.00</td></tr></table>
+
+syntax_highlighting: true
+# Skill icons from https://konpa.github.io/devicon/
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: Github
+
+github: https://github.com/jameshamann/jekyll-material-theme
+medium: https://medium.com
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+footer_content: Jesus is the reason for the season! <a href="https://www.biblegateway.com/passage/?search=Luke+2&version=NKJV">Luke 2</a>
+
+gacode: UA-1465363-3
+
+# Build settings
+markdown: kramdown
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier

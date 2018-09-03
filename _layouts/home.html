@@ -1,0 +1,115 @@
+{% include head.html %}
+
+<div id="home" class="section scrollspy">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">{{ site.description }}</h5>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="{{site.parallax_image_one}}" alt="Unsplashed background img 1"></div>
+  </div>
+</div>
+
+<div id="cookies" style="display:{{site.cookies_banner}}">
+  <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse"
+      onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)"><i class="material-icons">check</i></a></p>
+  {% include cookies.html %}
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="about" class="section scrollspy">
+    <h3 style="text-align:center;">{{site.about_heading}}</h3>
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <span class="card-title"><a style="color:white" href=""></a></span>
+          </div>
+          <div class="card-content">
+            <p>{{site.about_content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="location" class="section scrollspy">
+    <h3 style="text-align:center;">{{site.location_heading}}</h3>
+    <iframe src="{{site.location_url}}" frameborder="0" style="border:0;width:100%;height:600px" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="{{site.parallax_image_two}}" alt="Unsplashed background img 3"></div>
+</div>
+
+
+<div class="container" style="padding:20px;">
+  <div id="hours" class="section scrollspy">
+    <h3 style="text-align:center;">{{site.hours_heading}}</h3>
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <span class="card-title"><a style="color:white" href=""></a></span>
+          </div>
+          <div class="card-content">
+            <p>{{site.hours_content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="pricing" class="section scrollspy">
+    <h3 style="text-align:center;">{{site.pricing_heading}}</h3>
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <span class="card-title"><a style="color:white" href=""></a></span>
+          </div>
+          <div class="card-content">
+            <p>{{site.pricing_content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="contact" class="section scrollspy">
+    <h3 style="text-align:center;">Contact</h3>
+    {% include contact.html %}
+  </div>
+</div>
+
+{% include nav-burger.html %} {% include footer.html %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1465363-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.gacode}}');
+</script>

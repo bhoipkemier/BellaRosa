@@ -43,7 +43,7 @@ hours_heading: Hours
 hours_content: Hours of operation coming soon.
 
 pricing_heading: Prices
-pricing_content: <table style="width:600px"><tr><th>Tree</th><th>Cost Per Foot</th></tr><tr><td>Fraser Fir</td><td>$6.00</td></tr><tr><td>White Pine</td><td>$5.00</td></tr><tr><td>Blue Spruce</td><td>$5.00</td></tr></table>
+pricing_content: <table style="max-width:500px"><tr><th>Tree</th><th>Cost Per Foot</th></tr><tr><td>Fraser Fir</td><td>$6.00</td></tr><tr><td>White Pine</td><td>$5.00</td></tr><tr><td>Blue Spruce</td><td>$5.00</td></tr></table>
 
 syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/
